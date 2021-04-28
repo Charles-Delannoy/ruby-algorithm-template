@@ -1,3 +1,7 @@
+def integer_binary_gap(int)
+  binary_gap(to_binary(int))
+end
+
 def to_binary(int)
   return '0' if int.zero?
 
