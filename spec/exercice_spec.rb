@@ -1,4 +1,4 @@
-require 'exercice'
+require 'ecart_binaire'
 
 describe "Exercice" do
 
