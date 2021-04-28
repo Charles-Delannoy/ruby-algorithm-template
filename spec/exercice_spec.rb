@@ -87,7 +87,7 @@ describe "Exercice" do
       end
 
       it 'should return the binary gap for 1111111111111111101100011101111 binary' do
-        expect(binary_gap("1111111111111111111111111111111")).to eq(3)
+        expect(binary_gap("1111111111111111101100011101111")).to eq(3)
       end
 
       it 'should return the binary gap for 1111111111111111111111111111111 binary' do

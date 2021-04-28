@@ -9,3 +9,9 @@ def to_binary(int)
   end
   binary_conversion
 end
+
+def binary_gap(binary)
+  no_ending_zeros = binary.gsub(/0+$/, '')
+  gaps = no_ending_zeros.scan(/0+/).map(&:length)
+  gaps.max || 0
+end
