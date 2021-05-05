@@ -1,2 +1,2 @@
-# ruby-algorithm-template
-boilerplate for ruby algorithm, with Rakefile using rspec for tests
+# Binary_Gap
+executable file to get the binary gap
